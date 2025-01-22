@@ -29,7 +29,7 @@ const Header = (isDarkMode) => {
     initial={{opacity: 0}}
     whileInView={{opacity: 1}}
     transition={{duration: 0.6, delay: 0.7}}
-    className='max-w-2xl mx-auto font-Ovo'> I am a Senior UX / Product Designer from Gurugram, India with 9 years of experience in multiple conpanies like Accenture, Cavisson System, Vaibhav Global and Interglobe Technology </motion.p>
+    className='max-w-2xl mx-auto font-Ovo'> I am a Senior UX / Product Designer from Gurugram, India with 9 years of experience in multiple companies like Accenture, Cavisson System, Vaibhav Global and Interglobe Technology </motion.p>
 
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
       <motion.a
