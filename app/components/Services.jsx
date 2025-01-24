@@ -28,7 +28,10 @@ const Services = (isDarkMode) => {
     whileInView={{ opacity:1 }}
     transition={{ delay: 0.3, duration: 0.5 }}
        className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        I am Senior UX Designer from Gurugram, Haryana with 9 years of experience in multiple companies like Accenture, Cavission, Vaibahv Global and Interglobe Solution 
+       I am a Senior UX Designer based in Gurugram, Haryana, with over 9 years of experience. 
+       I specialize in designing intuitive, user-centric digital experiences that elevate usability and deliver impactful solutions. 
+       My services include UX research, wireframing, prototyping, interaction design, usability testing, 
+       and crafting seamless SaaS and cloud-based applications tailored to your business needs." 
        </motion.p>
 
     <motion.div 
