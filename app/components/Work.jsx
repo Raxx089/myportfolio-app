@@ -2,6 +2,9 @@ import { assets, workData } from '@/assets/assets';
 import React from 'react';
 import Image from 'next/image';
 import { motion } from "motion/react"
+import Link from 'next/link';
+
+
 
 
 const Work = (isDarkMode) => {
@@ -45,18 +48,23 @@ const Work = (isDarkMode) => {
          
          key={index}
          className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg
-         relative cursor-pointer group'
+         relative cursor-pointer group shadow-xl'
          style={{backgroundImage: `url(${project.bgImage})`}}>
     <div className='bg-white w-10/12 rounded-md absolute bottom-5
     left-1/2 -translate-x-1/2 py-3 px-5 flex items-center
-    justify-between duration-500 group-hover:bottom-7'>
+    justify-between duration-500 group-hover:bottom-7 shadow-md'     >
+    
 
-    <div>
-           <h2 className='font-semibold'>{project.title} </h2>
+           <div>
+           <h2 className='font-semibold '>{project.title} </h2>
             <p className='text-sm text-gray-700'>{project.description}</p>
+            
           </div>
-    <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
+          <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
           <Image src={assets.send_icon} alt='send icon' className='w-5' />
+
+
+          
           
         </div>
          
@@ -72,7 +80,7 @@ const Work = (isDarkMode) => {
        transition={{ delay:1.1, duration: 0.5 }}
        
        href="" className='w-max flex items-center justify-center gap-2 text-gray-700
-       border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover'>
+       border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover' onClick={() => window.open('https://www.behance.net/raxx08928b6', '_blank')}>
        Show more <Image src={ assets.right_arrow_bold} alt='Right arrow' className='w-4'/>
        </motion.a>
       

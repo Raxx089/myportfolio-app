@@ -37,6 +37,7 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import phone_icon from './phone_icon.png';
 import phone_icon_dark from './phone_icon_dark.png';
+import Link from 'next/link';
 export const assets = {
     user_image,
     code_icon,
@@ -81,23 +82,24 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Online Grocery App',
+        description: 'Case Study',
         bgImage: '/work-1.png',
+        link: '/https://www.behance.net/gallery/163034897/Online-grocery-App',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Project Management App',
+        description: 'Case Study',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Tailoring App',
+        description: 'Case Study',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Inventory Management',
+        description: 'Case Study',
         bgImage: '/work-4.png',
     },
 ]

@@ -2,7 +2,7 @@
 import Navbar from "./components/Navbar"
 import Header from "./components/Header"
 import About from "./components/About"
-import Services from "./components/Services"
+// import Services from "./components/Services"
 import Work from "./components/Work"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
@@ -37,7 +37,7 @@ useEffect(()=>{
    <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
    <Header isDarkMode={isDarkMode} />
    <About isDarkMode={isDarkMode} />
-   <Services isDarkMode={isDarkMode} />
+   {/* <Services isDarkMode={isDarkMode} /> */}
    <Work isDarkMode={isDarkMode} />
    <Contact isDarkMode={isDarkMode} />
    <Footer isDarkMode={isDarkMode} />
