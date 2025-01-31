@@ -37,7 +37,6 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import phone_icon from './phone_icon.png';
 import phone_icon_dark from './phone_icon_dark.png';
-import Link from 'next/link';
 export const assets = {
     user_image,
     code_icon,
