@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { motion } from "framer-motion";
 import Link from 'next/link';
 
-const VISIBLE_SLIDES = 3;
+const VISIBLE_SLIDES = 4;
 
 const Work = (isDarkMode) => {
   const [current, setCurrent] = useState(0);
@@ -89,7 +89,7 @@ const Work = (isDarkMode) => {
         transition={{ delay: 0.9, duration: 0.6 }}
         className='relative flex flex-col items-center my-10'
       >
-        <div className="flex gap-6 w-full justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 w-full justify-center">
           {visibleSlides.map((slide, idx) => (
             <motion.div
               key={slide.title + idx}
@@ -163,6 +163,5 @@ const Work = (isDarkMode) => {
     </motion.div>
   );
 };
-
 export default Work;
 
