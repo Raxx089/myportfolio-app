@@ -6,7 +6,11 @@ import About from "./components/About"
 import Work from "./components/Work"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
+// import Carousel from "./components/Carousel"
+
+
 import { useEffect, useState } from "react";
+import { i } from "motion/react-client"
 
 export default function Home() {
 
@@ -37,10 +41,13 @@ useEffect(()=>{
    <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
    <Header isDarkMode={isDarkMode} />
    <About isDarkMode={isDarkMode} />
+   {/* <Carousel></Carousel> */}
+   
    {/* <Services isDarkMode={isDarkMode} /> */}
    <Work isDarkMode={isDarkMode} />
    <Contact isDarkMode={isDarkMode} />
    <Footer isDarkMode={isDarkMode} />
+   
 
    
     

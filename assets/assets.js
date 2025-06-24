@@ -84,22 +84,43 @@ export const workData = [
         title: 'Online Grocery App',
         description: 'Case Study',
         bgImage: '/work-1.png',
-        link: '/https://www.behance.net/gallery/163034897/Online-grocery-App',
+        link: 'https://www.behance.net/raxx08928b6',
+        onClick: () => window.open('https://www.behance.net/raxx08928b6', '_blank')
     },
     {
         title: 'Project Management App',
         description: 'Case Study',
         bgImage: '/work-2.png',
+        link: 'https://www.behance.net/gallery/215513855/Project-Management-Saas-Based-Cloud-Application',
+        onClick: () => window.open('https://www.behance.net/gallery/215513855/Project-Management-Saas-Based-Cloud-Application', '_blank')
     },
     {
         title: 'Tailoring App',
         description: 'Case Study',
         bgImage: '/work-3.png',
+        link: 'https://www.behance.net/gallery/143480957/Tailoring-App-Case-Study',
+        onClick: () => window.open('https://www.behance.net/gallery/143480957/Tailoring-App-Case-Study', '_blank')
     },
     {
         title: 'Inventory Management',
         description: 'Case Study',
         bgImage: '/work-4.png',
+        link: 'https://www.behance.net/gallery/198577891/eCommerce-Inventory-Management',
+        onClick: () => window.open('https://www.behance.net/gallery/198577891/eCommerce-Inventory-Management', '_blank')
+    },
+    {
+        title: 'Redesigning an ERP System',
+        description: 'Case Study',
+        bgImage: '/work-5.png',
+        url: 'https://www.behance.net/gallery/228535089/UX-Case-Study-Redesigning-an-ERP-System',
+        onClick: () => window.open('https://www.behance.net/gallery/228535089/UX-Case-Study-Redesigning-an-ERP-System', '_blank')
+    },
+    {
+        title: 'Chronic Care Management App',
+        description: 'Case Study',
+        bgImage: '/work-6.png',
+        link: 'https://www.behance.net/gallery/227086107/MediConnect-A-Healthcare-Application-Case-Study',
+        onClick: () => window.open('https://www.behance.net/gallery/227086107/MediConnect-A-Healthcare-Application-Case-Study', '_blank')
     },
 ]
 
