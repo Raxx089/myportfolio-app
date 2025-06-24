@@ -46,9 +46,10 @@ const About = (isDarkMode) => {
          className='flex-1'>
          <p className='mb-10 max-w-2xl font-Ovo'>
 
-         I am experience in designing user-centric digital solutions for global enterprises. Demonstrated expertise in leading
-         end-to-end product design initiatives, developing scalable design systems, and driving business growth through data-driven design strategies. Proven track
-         record of improving user satisfaction, reducing development cycles, and mentoring design teams.
+         Strategic and user-focused Senior UI/UX & Product Designer with over 9 years of experience across B2B SaaS, e-commerce, ERP, and enterprise platforms.
+            Proven ability to lead design strategy, drive business outcomes, and deliver user-centric digital experiences. Expert in UX research, design systems,
+               accessibility, and AI-integrated workflows. Adept at solving complex problems through design thinking, team collaboration, and iterative product design in
+                   Agile/Scrum environments. Passionate about building scalable products that balance user needs, brand consistency, and business goals
 
          </p>
          <motion.ul 
