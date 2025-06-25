@@ -122,6 +122,20 @@ export const workData = [
         link: 'https://www.behance.net/gallery/227086107/MediConnect-A-Healthcare-Application-Case-Study',
         onClick: () => window.open('https://www.behance.net/gallery/227086107/MediConnect-A-Healthcare-Application-Case-Study', '_blank')
     },
+    {
+        title: 'Mobile Banking App UI/UX Case Study',
+        description: 'Case Study',
+        bgImage: '/work-7.png',
+        link: 'https://www.behance.net/gallery/224386883/Mobile-Banking-App-UIUX-Case-Study',
+        onClick: () => window.open('https://www.behance.net/gallery/224386883/Mobile-Banking-App-UIUX-Case-Study', '_blank')
+    },
+    {
+        title: 'Travel App (UI/UX Case Study)',
+        description: 'Case Study',
+        bgImage: '/work-8.png',
+        link: 'https://www.behance.net/gallery/224305237/Travel-App-(UIUX-Case-Study)',
+        onClick: () => window.open('https://www.behance.net/gallery/224305237/Travel-App-(UIUX-Case-Study)', '_blank')
+    },
 ]
 
 export const serviceData = [
